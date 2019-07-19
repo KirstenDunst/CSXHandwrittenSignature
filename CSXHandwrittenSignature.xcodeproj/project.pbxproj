@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB67127E22DF198500603D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67127D22DF198500603D2B /* AppDelegate.m */; };
+		DB67128122DF198500603D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67128022DF198500603D2B /* ViewController.m */; };
+		DB67128422DF198500603D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB67128222DF198500603D2B /* Main.storyboard */; };
+		DB67128622DF198700603D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB67128522DF198700603D2B /* Assets.xcassets */; };
+		DB67128922DF198700603D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB67128722DF198700603D2B /* LaunchScreen.storyboard */; };
+		DB67128C22DF198700603D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67128B22DF198700603D2B /* main.m */; };
+		DB67129622DF198700603D2B /* CSXHandwrittenSignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67129522DF198700603D2B /* CSXHandwrittenSignatureTests.m */; };
+		DB6712A122DF198700603D2B /* CSXHandwrittenSignatureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6712A022DF198700603D2B /* CSXHandwrittenSignatureUITests.m */; };
+		DB6712B022DF1AC700603D2B /* CSXPopSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6712AF22DF1AC700603D2B /* CSXPopSignatureView.m */; };
+		DB6712B322DF1AE100603D2B /* CSXSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6712B222DF1AE100603D2B /* CSXSignatureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB67129222DF198700603D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB67127122DF198500603D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB67127822DF198500603D2B;
+			remoteInfo = CSXHandwrittenSignature;
+		};
+		DB67129D22DF198700603D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB67127122DF198500603D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB67127822DF198500603D2B;
+			remoteInfo = CSXHandwrittenSignature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB67127922DF198500603D2B /* CSXHandwrittenSignature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSXHandwrittenSignature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB67127C22DF198500603D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB67127D22DF198500603D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB67127F22DF198500603D2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB67128022DF198500603D2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB67128322DF198500603D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB67128522DF198700603D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB67128822DF198700603D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB67128A22DF198700603D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB67128B22DF198700603D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB67129122DF198700603D2B /* CSXHandwrittenSignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSXHandwrittenSignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB67129522DF198700603D2B /* CSXHandwrittenSignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXHandwrittenSignatureTests.m; sourceTree = "<group>"; };
+		DB67129722DF198700603D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB67129C22DF198700603D2B /* CSXHandwrittenSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSXHandwrittenSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6712A022DF198700603D2B /* CSXHandwrittenSignatureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXHandwrittenSignatureUITests.m; sourceTree = "<group>"; };
+		DB6712A222DF198700603D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6712AE22DF1AC700603D2B /* CSXPopSignatureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSXPopSignatureView.h; sourceTree = "<group>"; };
+		DB6712AF22DF1AC700603D2B /* CSXPopSignatureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXPopSignatureView.m; sourceTree = "<group>"; };
+		DB6712B122DF1AE100603D2B /* CSXSignatureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSXSignatureView.h; sourceTree = "<group>"; };
+		DB6712B222DF1AE100603D2B /* CSXSignatureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXSignatureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB67127622DF198500603D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67128E22DF198700603D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67129922DF198700603D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB67127022DF198500603D2B = {
+			isa = PBXGroup;
+			children = (
+				DB67127B22DF198500603D2B /* CSXHandwrittenSignature */,
+				DB67129422DF198700603D2B /* CSXHandwrittenSignatureTests */,
+				DB67129F22DF198700603D2B /* CSXHandwrittenSignatureUITests */,
+				DB67127A22DF198500603D2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB67127A22DF198500603D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB67127922DF198500603D2B /* CSXHandwrittenSignature.app */,
+				DB67129122DF198700603D2B /* CSXHandwrittenSignatureTests.xctest */,
+				DB67129C22DF198700603D2B /* CSXHandwrittenSignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB67127B22DF198500603D2B /* CSXHandwrittenSignature */ = {
+			isa = PBXGroup;
+			children = (
+				DB67127C22DF198500603D2B /* AppDelegate.h */,
+				DB67127D22DF198500603D2B /* AppDelegate.m */,
+				DB67127F22DF198500603D2B /* ViewController.h */,
+				DB67128022DF198500603D2B /* ViewController.m */,
+				DB6712AE22DF1AC700603D2B /* CSXPopSignatureView.h */,
+				DB6712AF22DF1AC700603D2B /* CSXPopSignatureView.m */,
+				DB6712B122DF1AE100603D2B /* CSXSignatureView.h */,
+				DB6712B222DF1AE100603D2B /* CSXSignatureView.m */,
+				DB67128222DF198500603D2B /* Main.storyboard */,
+				DB67128522DF198700603D2B /* Assets.xcassets */,
+				DB67128722DF198700603D2B /* LaunchScreen.storyboard */,
+				DB67128A22DF198700603D2B /* Info.plist */,
+				DB67128B22DF198700603D2B /* main.m */,
+			);
+			path = CSXHandwrittenSignature;
+			sourceTree = "<group>";
+		};
+		DB67129422DF198700603D2B /* CSXHandwrittenSignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB67129522DF198700603D2B /* CSXHandwrittenSignatureTests.m */,
+				DB67129722DF198700603D2B /* Info.plist */,
+			);
+			path = CSXHandwrittenSignatureTests;
+			sourceTree = "<group>";
+		};
+		DB67129F22DF198700603D2B /* CSXHandwrittenSignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6712A022DF198700603D2B /* CSXHandwrittenSignatureUITests.m */,
+				DB6712A222DF198700603D2B /* Info.plist */,
+			);
+			path = CSXHandwrittenSignatureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB67127822DF198500603D2B /* CSXHandwrittenSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6712A522DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignature" */;
+			buildPhases = (
+				DB67127522DF198500603D2B /* Sources */,
+				DB67127622DF198500603D2B /* Frameworks */,
+				DB67127722DF198500603D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSXHandwrittenSignature;
+			productName = CSXHandwrittenSignature;
+			productReference = DB67127922DF198500603D2B /* CSXHandwrittenSignature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB67129022DF198700603D2B /* CSXHandwrittenSignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6712A822DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignatureTests" */;
+			buildPhases = (
+				DB67128D22DF198700603D2B /* Sources */,
+				DB67128E22DF198700603D2B /* Frameworks */,
+				DB67128F22DF198700603D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB67129322DF198700603D2B /* PBXTargetDependency */,
+			);
+			name = CSXHandwrittenSignatureTests;
+			productName = CSXHandwrittenSignatureTests;
+			productReference = DB67129122DF198700603D2B /* CSXHandwrittenSignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB67129B22DF198700603D2B /* CSXHandwrittenSignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6712AB22DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignatureUITests" */;
+			buildPhases = (
+				DB67129822DF198700603D2B /* Sources */,
+				DB67129922DF198700603D2B /* Frameworks */,
+				DB67129A22DF198700603D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB67129E22DF198700603D2B /* PBXTargetDependency */,
+			);
+			name = CSXHandwrittenSignatureUITests;
+			productName = CSXHandwrittenSignatureUITests;
+			productReference = DB67129C22DF198700603D2B /* CSXHandwrittenSignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB67127122DF198500603D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "曹世鑫";
+				TargetAttributes = {
+					DB67127822DF198500603D2B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DB67129022DF198700603D2B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB67127822DF198500603D2B;
+					};
+					DB67129B22DF198700603D2B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DB67127822DF198500603D2B;
+					};
+				};
+			};
+			buildConfigurationList = DB67127422DF198500603D2B /* Build configuration list for PBXProject "CSXHandwrittenSignature" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB67127022DF198500603D2B;
+			productRefGroup = DB67127A22DF198500603D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB67127822DF198500603D2B /* CSXHandwrittenSignature */,
+				DB67129022DF198700603D2B /* CSXHandwrittenSignatureTests */,
+				DB67129B22DF198700603D2B /* CSXHandwrittenSignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB67127722DF198500603D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67128922DF198700603D2B /* LaunchScreen.storyboard in Resources */,
+				DB67128622DF198700603D2B /* Assets.xcassets in Resources */,
+				DB67128422DF198500603D2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67128F22DF198700603D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67129A22DF198700603D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB67127522DF198500603D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67128122DF198500603D2B /* ViewController.m in Sources */,
+				DB67128C22DF198700603D2B /* main.m in Sources */,
+				DB6712B022DF1AC700603D2B /* CSXPopSignatureView.m in Sources */,
+				DB6712B322DF1AE100603D2B /* CSXSignatureView.m in Sources */,
+				DB67127E22DF198500603D2B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67128D22DF198700603D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB67129622DF198700603D2B /* CSXHandwrittenSignatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB67129822DF198700603D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6712A122DF198700603D2B /* CSXHandwrittenSignatureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB67129322DF198700603D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB67127822DF198500603D2B /* CSXHandwrittenSignature */;
+			targetProxy = DB67129222DF198700603D2B /* PBXContainerItemProxy */;
+		};
+		DB67129E22DF198700603D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB67127822DF198500603D2B /* CSXHandwrittenSignature */;
+			targetProxy = DB67129D22DF198700603D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB67128222DF198500603D2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB67128322DF198500603D2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB67128722DF198700603D2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB67128822DF198700603D2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6712A322DF198700603D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB6712A422DF198700603D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6712A622DF198700603D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				INFOPLIST_FILE = CSXHandwrittenSignature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.csx.text;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB6712A722DF198700603D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				INFOPLIST_FILE = CSXHandwrittenSignature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.csx.text;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB6712A922DF198700603D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSXHandwrittenSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.csx.CSXHandwrittenSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSXHandwrittenSignature.app/CSXHandwrittenSignature";
+			};
+			name = Debug;
+		};
+		DB6712AA22DF198700603D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSXHandwrittenSignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.csx.CSXHandwrittenSignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSXHandwrittenSignature.app/CSXHandwrittenSignature";
+			};
+			name = Release;
+		};
+		DB6712AC22DF198700603D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSXHandwrittenSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.csx.CSXHandwrittenSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSXHandwrittenSignature;
+			};
+			name = Debug;
+		};
+		DB6712AD22DF198700603D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CSXHandwrittenSignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.csx.CSXHandwrittenSignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSXHandwrittenSignature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB67127422DF198500603D2B /* Build configuration list for PBXProject "CSXHandwrittenSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6712A322DF198700603D2B /* Debug */,
+				DB6712A422DF198700603D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6712A522DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6712A622DF198700603D2B /* Debug */,
+				DB6712A722DF198700603D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6712A822DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6712A922DF198700603D2B /* Debug */,
+				DB6712AA22DF198700603D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6712AB22DF198700603D2B /* Build configuration list for PBXNativeTarget "CSXHandwrittenSignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6712AC22DF198700603D2B /* Debug */,
+				DB6712AD22DF198700603D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB67127122DF198500603D2B /* Project object */;
+}
